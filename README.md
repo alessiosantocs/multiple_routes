@@ -11,7 +11,6 @@ Then bundle install.
 
 ## Usage
 Simply create a folder in your config/ called _routes_ and create any file as follows:
-
 ```ruby
 # config/routes/api.rb
 namespace :api, defaults: {format: 'json'} do
@@ -22,7 +21,6 @@ namespace :api, defaults: {format: 'json'} do
     end
 end
 ```
-
 Then in your routes.rb file:
 ```ruby
 Deploydapp::Application.routes.draw do
