@@ -4,8 +4,9 @@ You'll be able to split routes files into a routes folder and keep everything ti
 
 ## Installation
 Go for it, install like this:
-
-    gem 'multiple_routes' # In your gemfile
+```ruby
+gem 'multiple_routes' # In your gemfile
+```
 
 Then bundle install.
 
